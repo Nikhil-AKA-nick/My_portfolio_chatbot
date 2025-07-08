@@ -1,6 +1,7 @@
 import os
 # use the pure‑Python protobuf parser (avoids the “Descriptors cannot be created directly” error)
 os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+os.environ["CHROMA_TELEMETRY_ENABLED"] = "false"
 
 
 import streamlit as st
