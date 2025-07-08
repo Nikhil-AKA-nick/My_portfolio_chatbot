@@ -1,0 +1,5 @@
+venv/
+test.py
+txt_vecdb.py
+__pycache__/
+.streamlit/secrets.toml

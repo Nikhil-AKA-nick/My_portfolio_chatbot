@@ -1,0 +1,73 @@
+
+
+Abount me : Artificial Intelligence and Data science enthusiast with a strong foundation in Statistics, Data Science, Machine learning, Deep learning, NLP and
+Generative AI. Excited about the potential of AI and am eager to contribute my skills and knowledge to create innovative solutions.
+
+My EDUCATION :
+Bachelor of Engineering in ArtificialIntelligence and Data Science
+Ajeenkya DY Patil School Of Engineering • Pune • 2020-2024 • 8.6 CGPA
+
+My Skills : Languages: Python Framework/Library: Numpy, Pandas, Scikit-learn, OpenCV, FastAPI, Streamlit
+Machine Learning, Deep Learning: ML Algorithms, Supervised/Unsupervised Learning, Neural Networks, Tensorflow,
+Keras, Pytorch, Computer Vision.
+Natural Language Processing: Spacy, NLTK, RNN, LSTM, BERT, Topic Modelling, Huggingface.
+Generative AI: LLMs, Langchain, LlamaIndex, RAG, GraphRAG VectorDB : Pinecone, Qdrant, CromaDB AI Agents :
+LangGraph, CrewAI.
+
+
+Work Experience : 
+Ciklum, Pune June 2024 - Present
+AI/ML Engineer
+• Fine-tuned Florence-2 vision model to detect and classify engineering symbols from technical drawings.
+• Developed end-to-end data pipelines using PyTorch, including standardization, normalization, and augmentation techniques.
+• Applied model optimization techniques: layer freezing, hyperparameter tuning, regularization (Dropout, Weight Decay),
+gradient clipping, and learning rate schedulers.
+• Addressed class imbalance and implemented robust evaluation strategies to improve model performance.
+• Designed and built an AI-powered financial management chatbot leveraging LangGraph, LangChain, and Pydantic.
+• Developed orchestrator and specialized agents for Budgeting, Expense Tracking, and Market Advisory, enabling personalized financial planning and smart goal tracking.
+• Engineered tools for real-time data retrieval (user financial data, market data) and integrated the system into a conversational AI chatbot.
+• Crafted prompt structures and optimized agent interactions to deliver accurate, user-friendly responses.
+
+Generative AI Intern
+Resolute AI Software’s December 2023 - Present, Bangalore
+• Played a key role in integrating state-of-the-art LLM like GPT, Gemini, Gemma, Llama, Code Llama, Mistral, Falcon, Ollama enhancing their 
+functionality and overall performance. Implemented vector databases like Chroma, FAISS, Pinecone for optimizing data vector storage and retrieval.
+• Developed a Medical Assistant Chatbot utilizing GPT 3.5 model for conversational AI, allowing users to interactively discuss medical queries and 
+upload medical documents such as MRI reports. Utilized various LLMs and Pinecone database for metadata storage, ensuring relevant search results.
+• Contributed to creation of a SQL Database Chatbot, streamlining query analysis and retrieval processes across multiple SQL databases including MS 
+SQL, MySQL, and PostgreSQL. Integrated LangChain SQL agent, resulting in a significant reduction in query formulation time by up to 50%.
+• Contributed to the development of a Product Catalogue Search Application, employing Generative AI techniques to enhance fabric product search 
+capabilities. Also Engineered an Advanced Document-led Chatbot utilizing various LLMs and vector databases for efficient query resolution.
+
+Analyst and Machine Learning Intern
+Igurus Consultancy Services January 2023 - May 2023, Pune
+• Developed a cutting-edge Devanagari OCR model by leveraging various techniques like Convolutional Neural Networks (CNN), GRU, and LSTM, 
+which transformed intricate Devanagari documents and images into interpretable text. Additionally, 
+• Implemented OpenCV for precise image segmentation and recognition, enhancing the model's ability to segment words and characters accurately 
+from images. Played a key role in optimizing models for accuracy and efficiency, achieving an impressive accuracy of 84%.
+• Additionally, played a pivotal role in optimizing and training these deep learning models and Demonstrated proficiency in leveraging industrystandard OCR libraries including EasyOCR and Tesseract OCR
+
+
+My personal projects :
+PROJECTS
+Chat-Visualization
+https://github.com/Nikhil-AKA-nick/ChatVizualization
+• Developed a Chat to Visualization application utilizing OpenAI GPT 3.5 model, which seamlessly translates user prompts into visualization scripts 
+while employing prompt optimization techniques to ensure accurate and relevant visualization outputs, thereby reducing visualization time by 80%.
+• Implemented a user-friendly Streamlit interface and implementing LangChain within the ChatVisualization application, enabling effortless generation 
+and analysis of visualizations for users without coding expertise, thereby facilitating seamless visualization analysis and enhancing accessibility.
+Number Plate Detection
+https://github.com/Nikhil-AKA-nick/Number-Plate-Detection-Object-Detection-Project
+• Developed a robust Number Plate Detection Model for real-time identification of number plates on moving objects, adeptly identifying various 
+plate formats with the flexibility for minor adjustments. 
+• Utilized the COCO model and YOLO v8 to enable efficient and accurate object detection, coupled with the SORT algorithm for Object tracking.
+• Integrated a dedicated number plate detector model for precise number plate identification and harnessed EasyOCR for swift and accurate 
+number plate recognition.
+Code-Free Data Science Platform
+https://github.com/Nikhil-AKA-nick/CodeFree-DataScience-Platform
+• Developed a platform enabling individuals, regardless of coding experience to perform data science tasks. Enabled users to clean and process 
+data, conduct insightful analysis, and generate dynamic visualizations without coding. 
+• Integrated language models like Code Llama-Python and OpenAI GPT model. Utilized LangChain and Agents in developing the GenAI 
+application. Achieved up to a 50% reduction in data analysis and processing time.
+• Expanded platform capabilities to include retrieval and analysis of SQL files and databases, offering comprehensive data analysis tools for 
+enhanced insights generation. Securely stores data and results in the cloud
