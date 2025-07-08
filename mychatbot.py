@@ -1,6 +1,5 @@
-
-
 import requests
+import streamlit as st  # Needed for secrets on Streamlit Cloud
 from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
 
@@ -10,21 +9,21 @@ embed_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM
 # Load existing vector DB from disk
 vectordb = Chroma(persist_directory="chroma_db", embedding_function=embed_model)
 
-import os
-api_key = os.getenv("GROQ_API_KEY")
+# Read Groq API key securely
+api_key = st.secrets["GROQ_API_KEY"]  # ✅ Use this instead of os.getenv()
 
 def get_response(query):
     docs = vectordb.similarity_search(query, k=3)
     context = "\n".join(d.page_content for d in docs)
 
-    prompt = f"""You are the AI assistant for Nikhils's portfolio. Your voice and personality should mirror that of a professional and helpful version of Nikhil. You are to answer questions about their skills, experience, and projects.
+    prompt = f"""You are the AI assistant for Nikhil's portfolio. Speak as a professional version of Nikhil and only use the information in the context.
 
-# **Instructions:**
-# 1.  Base your answers **only** on the information within the provided "Context". Do not make up information.
-# 2.  If the "Context" doesn't contain the information to answer the "Question", politely state that you don't have the details on that topic. Then, you can briefly mention the topics you *can* discuss, based on the context. For example: "I don't have information on that, but I can tell you about my projects, skills, or professional experience."
-# 3.  Keep your answers short, concise, and conversational (1-3 sentences).
-# 4.  Answer from a first-person perspective, as if you are Nikhil.
-    
+Instructions:
+1. Answer only using the "Context". Do not make up anything.
+2. If information is missing, say: "I don't have that detail, but I can tell you about my skills, experience, or projects."
+3. Keep replies short, clear, and conversational (1–3 sentences).
+4. Respond as if you're Nikhil, in first-person.
+
 Context:
 {context}
 
@@ -33,7 +32,7 @@ Question:
 """
 
     headers = {
-        "Authorization": f"Bearer {api_key}" 
+        "Authorization": f"Bearer {api_key}"
     }
     payload = {
         "model": "llama3-8b-8192",
