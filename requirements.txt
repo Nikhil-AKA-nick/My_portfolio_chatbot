@@ -7,3 +7,4 @@ requests
 langchain-community
 pysqlite3-binary
 groq
+protobuf==3.20.3
