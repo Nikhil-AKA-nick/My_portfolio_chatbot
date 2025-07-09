@@ -3,5 +3,6 @@ langchain
 langchain-chroma
 langchain-huggingface
 langchain-groq
-pysqlite3-binary
 protobuf==3.20.3
+chromadb==0.4.24
+pysqlite3
