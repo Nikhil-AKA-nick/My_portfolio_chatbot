@@ -6,3 +6,4 @@ langchain-groq
 protobuf==3.20.3
 chromadb==0.4.24
 pysqlite3
+numpy<2.0
