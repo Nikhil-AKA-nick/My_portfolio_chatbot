@@ -1,7 +1,9 @@
 streamlit
 requests
-chromadb
 langchain
-langchain-community
+chromadb
 sentence-transformers
-protobuf==3.20.*
+requests
+langchain-community
+pysqlite3-binary
+groq
