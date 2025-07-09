@@ -1,10 +1,6 @@
 streamlit
-requests
 langchain
-chromadb
-sentence-transformers
-requests
-langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-groq
 pysqlite3-binary
-groq
-protobuf==3.20.3
